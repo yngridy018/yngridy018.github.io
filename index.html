@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yngridy Silva CV</title>
 
-    <link rel="stylesheet" href="style.css">
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main class="resume-contents">
         <section class="left-section">
-            <section class="left-section-content">
+            <div class="left-section-content">
                 <div class="profile">
                     <img class="profile-image" src="img/profile-image.jpg" alt="Profile image">
                     <p class="name">Yngridy Silva</p>
@@ -24,26 +31,29 @@
                     <p class="left-title">Contato</p>
                     <ul>
                         <li><i class="fa fa-phone"></i>+55 13 99751-2224</li>
-                        <li><i class="fa fa-envelope"></i>yngridypereira380@gmail.com</li>
-                        <li><i class="fa fa-globe"></i>www.yngridy.com</li>
+                        <li><i class="fa fa-envelope"></i>yngridydev380@gmail.com</li>
+                        <li><i class="fa fa-globe"></i>www.yngridy_dev.com</li>
                         <li><i class="fa fa-github"></i>yngridy018</li>
                     </ul>
                 </div>
                 <div class="skills">
                     <p class="left-title">Skills</p>
                     <ul>
-                        <li>
-                            <p>HTML, CSS, GIT & GitHub</p>
-                        </li>
-                        <li>
-                            <p>Linux</p>
-                        </li>
+                        <li><p>Python3, Django, Flask & FastAPI</p></li>
+                        <li><p>Java</p></li>
+                        <li><p>JavaScript, VueJS</p></li>
+                        <li><p>HTML5 & CSS3</p></li>
+                        <li><p>SQL, Postgres, MongoDB</p></li>
+                        <li><p>Git & GitHub</p></li>
+                        <li><p>Linux, Bash/Shell</p></li>
                     </ul>
                 </div>
             </section>
         </section>
+
         <section class="right-section">
             <div class="right-section-contents">
+                <!-- sobre mim -->
                 <section class="about gap">
                     <div class="right-title">Sobre Mim</div>
                     <p class="about-me-contents">
@@ -52,22 +62,50 @@
                         <br> Quais são minhas competências
                     </p>
                 </section>
-            </div>
+                <!-- fim sobre mim -->
+
+                <!-- experiencia -->
             <section class="experience gap">
-                <div class="right-title">Experiencia</div>
+                <div class="right-title">Experiência</div>
                 <div class="experience-contents">
                     <div class="expe-left">
                         <p class="exp-company-name">Empresa 01</p>
                         <p class="exp-time-period">2021-Present</p>
                     </div>
                     <div class="expe-rigth">
-                        <p class="exp-position">Engenheiro de Software</p>
+                        <p class="exp-position">Senior Software Engineer</p>
                         <p class="exp-desc">
                             Descreva as principais atividades
                         </p>
                     </div>
                 </div>
+                <div class="experience-contents">
+                    <div class="exp-left">
+                        <p class="exp-company-name">Empresa 02</p>
+                        <p class="exp-time-period">2018-2021</p>
+                    </div>
+                    <div class="exp-right">
+                        <p class="exp-position">Software Engineer</p>
+                        <p class="exp-desc">
+                            Descreva aqui quais foram as principais atividades
+                        </p>
+                    </div>
+                </div>
+                <div class="experience-contents">
+                    <div class="exp-left">
+                        <p class="exp-company-name">Empresa 03</p>
+                        <p class="exp-time-period">2017-2018</p>
+                    </div>
+                    <div class="exp-right">
+                        <p class="exp-position">Software Engineer</p>
+                        <p class="exp-desc">
+                            Descreva aqui quais foram as principais atividades 
+                        </p>
+                    </div>
+                </div>
             </section>
+            <!-- fim experiencia -->
+            <!-- formaçao academica -->
             <section class="education gap">
                 <div class="right-title">Formação Acadêmica</div>
                 <div class="education-contents">
@@ -93,6 +131,7 @@
                     </div>
                 </div>
             </section>
+            <!-- cursos -->
             <section class="awards gap">
                 <div class="right-title">Cursos</div>
                 <div class="awards-contents">
@@ -120,6 +159,7 @@
                     </div>
                 </div>
             </section>
+            <!-- fim cursos -->
         </section>
     </main>
 </body>
