@@ -1,2 +1,2 @@
-# jornada-dev.github.io
+# yngridy018.github.io
 Currículo do Jornada Dev
